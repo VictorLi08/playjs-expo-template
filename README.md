@@ -7,5 +7,5 @@ A few caveats:
 - Extra dev dependencies to make up for the lack of global Expo modules.
 - Tunnel connection is not supported.
   - @expo/ngrok package simply prevents DevTools from error in when selecting the tunnel option.
-- Expo Go app is not supported.
-  - Test your app in the play.js browser by selecting `Run in web browser` in DevTools or by running the `web` script (a local URL will be produced).
+- Ex`po Go app is not supported.
+  - Test your app in the play.js browser by selecting `Run in web browser` in DevTools or by running the `web` script (aΩΩ URL will be produced).
