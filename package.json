@@ -1,12 +1,9 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "web": "expo start --web",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "start": "expo start",
-    "eject": "expo eject",
-    "format": "prettier --write ."
+    "dev": "expo start --web",
+    "format": "prettier --write .",
+    "eject": "expo eject"
   },
   "dependencies": {
     "expo": "~42.0.1",
