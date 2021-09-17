@@ -8,7 +8,8 @@ Features:
 
 - Formatting script due to the lack of watch capabilities in play.js sandboxes.
 - Preset Expo CLI scripts for login and publish.
-  - You will need to replace `<YOUR_USERNAME>` and `<YOUR_PASSWORD>` in the login script with your Expo login credentials.
+  - You will need to replace `<YOUR_USERNAME>` and `<YOUR_PASSWORD>` in the `package.json` login script with your Expo login credentials. 
+    - __:warning: DANGER: You will only need to log in to Expo once. Always discard these changes immediately after running the login script.__
   - You may need to customize the publish script to your workflow's needs.
   - View the [Expo CLI documentation](https://docs.expo.dev/workflow/expo-cli/) for more on CLI commands.
 
