@@ -2,8 +2,11 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "dev": "expo start --web",
+    "eject": "expo eject",
     "format": "prettier --write .",
-    "eject": "expo eject"
+    "login": "expo login -u <YOUR_USERNAME> -p <YOUR_PASSWORD>",
+    "publish": "expo publish -c",
+    "whoami": "expo whoami"
   },
   "dependencies": {
     "expo": "~42.0.1",
