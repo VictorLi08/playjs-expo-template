@@ -19,5 +19,5 @@ A few caveats:
 - Tunneling is not supported.
   - `@expo/ngrok package` simply prevents DevTools from producing an error in when selecting the tunnel option.
 - Expo Go app is not supported.
-  - QR code generates but is not
-  - Test your app in the play.js browser by selecting `Run in web browser` in DevTools or by running the `web` script.
+  - QR code generates but is not usable (scans but Expo Go can't open it properly).
+  - You can only test your app in the play.js browser by selecting `Run in web browser` in DevTools or by running the `web` script.
