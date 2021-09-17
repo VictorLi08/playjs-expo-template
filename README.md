@@ -2,7 +2,7 @@
 
 An Expo development environment optimized specifically for usage in a local play.js sandbox.
 
-Check out the play.js for iOS by [clicking here](https://apps.apple.com/us/app/play-js-javascript-ide/id1423330822).
+Check out play.js for iOS by [clicking here](https://apps.apple.com/us/app/play-js-javascript-ide/id1423330822).
 
 Features:
 
