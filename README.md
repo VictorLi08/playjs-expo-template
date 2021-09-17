@@ -2,10 +2,22 @@
 
 An Expo development environment optimized specifically for usage in a local play.js sandbox.
 
+Check out the play.js for iOS by [clicking here](https://apps.apple.com/us/app/play-js-javascript-ide/id1423330822).
+
+Features:
+
+- Formatting script due to the lack of watch capabilities in play.js sandboxes.
+- Preset Expo CLI scripts for login and publish.
+  - You will need to replace `<YOUR_USERNAME>` and `<YOUR_PASSWORD>` in the login script with your Expo login credentials.
+  - You may need to customize the publish script to your workflow's needs.
+  - View the [Expo CLI documentation](https://docs.expo.dev/workflow/expo-cli/) for more on CLI commands.
+
 A few caveats:
 
-- Extra dev dependencies to make up for the lack of global Expo modules.
-- Tunnel connection is not supported.
-  - @expo/ngrok package simply prevents DevTools from error in when selecting the tunnel option.
-- Ex`po Go app is not supported.
-  - Test your app in the play.js browser by selecting `Run in web browser` in DevTools or by running the `web` script (aΩΩ URL will be produced).
+- Some scripts don't stop on their own.
+- Extra dev dependencies added to make up for the lack of global module support in play.js
+- Tunneling is not supported.
+  - `@expo/ngrok package` simply prevents DevTools from producing an error in when selecting the tunnel option.
+- Expo Go app is not supported.
+  - QR code generates but is not
+  - Test your app in the play.js browser by selecting `Run in web browser` in DevTools or by running the `web` script.
