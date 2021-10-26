@@ -19,6 +19,8 @@ A few caveats:
 - Extra dev dependencies added to make up for the lack of global module support in play.js
 - Tunneling is not supported.
   - `@expo/ngrok` package simply prevents DevTools from producing an error in when selecting the tunnel option.
-- Expo Go app is not supported.
+- Expo Go app is not directly supported.
   - QR code generates but is not usable (scans but Expo Go can't open it properly).
-  - You can only test your app in the play.js browser by selecting `Run in web browser` in DevTools or by running the `web` script.
+  - The only way to run within Expo Go is to publish the project to Expo and then open it from the `Profile` menu.
+- Simulators are not supported.
+  - The only way of testing the app with hot reloading is to select `Run in web browser` in DevTools or by running the dev command with the `--web` flag (baked into the `dev` script in this template). Expo Web is typically hosted at http://localhost:19006. 
