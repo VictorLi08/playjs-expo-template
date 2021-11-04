@@ -23,5 +23,5 @@ A few caveats:
   - QR code generates but is not usable (scans but Expo Go can't open it properly).
   - The only way to run within Expo Go is to publish the project to Expo and then open it from the `Profile` menu.
 - Simulators are not supported.
-  - The only way of testing the app with hot reloading is to select `Run in web browser` in DevTools or by running the dev command with the `--web` flag (baked into the `dev` script in this template). Expo Web is typically hosted at http://localhost:19006.
+  - The only way of testing the app with hot reloading is to select `Run in web browser` in DevTools or by running the dev command with the `--web` flag (baked into the `dev` script in this template). Expo Web is typically hosted at http://localhost:19006; refer to your terminal.
 - Cannot directly publish from sandbox; a CI pipeline is necessary. [Read up on setting up CI for Expo](https://docs.expo.dev/guides/setting-up-continuous-integration/).
