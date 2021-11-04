@@ -18,7 +18,7 @@ A few caveats:
 - Some scripts don't stop on their own.
 - Extra dev dependencies added to make up for the lack of global module support in play.js
 - Tunneling is not supported.
-  - `@expo/ngrok` package simply prevents the dev server from terminating when selecting the tunnel option.
+  - `@expo/ngrok` package simply prevents the dev server from terminating itself when selecting the tunnel option.
 - Expo Go app is not directly supported.
   - QR code generates but is not usable (scans but Expo Go can't open it properly).
   - The only way to run within Expo Go is to publish the project to Expo and then open it from the `Profile` menu.
