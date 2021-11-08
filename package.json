@@ -7,8 +7,7 @@
     "dev": "expo start --web",
     "eject": "expo eject",
     "format": "prettier --write .",
-    "login": "expo login -u <YOUR_USERNAME> -p <YOUR_PASSWORD>",
-    "publish": "expo publish -c",
+    "login": "expo login -u <YOUR_USERNAME> -p <YOUR_PASSWORD> --otp <YOUR_OTP_CODE>",
     "whoami": "expo whoami"
   },
   "dependencies": {
