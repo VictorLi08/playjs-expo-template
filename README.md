@@ -8,8 +8,8 @@ Features:
 
 - Formatting script due to the lack of watch capabilities in play.js sandboxes.
 - Preset Expo CLI scripts for login and publish.
-  - You will need to replace `<YOUR_USERNAME>` and `<YOUR_PASSWORD>` in the `package.json` login script with your Expo login credentials.
-    - **:warning: DANGER: You will only need to log in to Expo once per sandbox. Always discard your changes to the login script immediately after running it in order to ensure the safety of your credentials.**
+  - You will need to replace `<YOUR_USERNAME>`, `<YOUR_PASSWORD>`, and `<YOUR_OTP_CODE>` in the `package.json` login script with your Expo login credentials.
+    - **:warning: DANGER: You will only need to log in to Expo once per sandbox. Always discard your changes to the login script immediately after running it to protect your credentials.**
   - You may need to customize the publish script to your workflow's needs.
   - View the [Expo CLI documentation](https://docs.expo.dev/workflow/expo-cli/) for more on CLI commands.
 
@@ -24,4 +24,4 @@ A few caveats:
   - The only way to run within Expo Go is to publish the project to Expo and then open it from the `Profile` menu.
 - Simulators are not supported.
   - The only way of testing the app with hot reloading is to select `Run in web browser` in DevTools or by running the dev command with the `--web` flag (baked into the `dev` script in this template). Expo Web is typically hosted at http://localhost:19006; refer to your terminal.
-- Cannot directly publish from sandbox; a CI pipeline is necessary. [Read up on setting up CI for Expo](https://docs.expo.dev/guides/setting-up-continuous-integration/).
+- Cannot directly build nor publish from sandbox; a CI pipeline is necessary. [Read up on setting up CI for Expo](https://docs.expo.dev/guides/setting-up-continuous-integration/).
