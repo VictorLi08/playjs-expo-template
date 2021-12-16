@@ -8,7 +8,8 @@
     "eject": "expo eject",
     "format": "prettier --write .",
     "login": "expo login -u <YOUR_USERNAME> -p <YOUR_PASSWORD> --otp <YOUR_OTP_CODE>",
-    "whoami": "expo whoami"
+    "whoami": "expo whoami",
+    "audit": "npm audit"
   },
   "dependencies": {
     "expo": "~42.0.1",
@@ -16,12 +17,15 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "immer": ">=9.0.6",
+    "axios": ">=0.21.2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@expo/ngrok": "^4.1.0",
     "expo-cli": "^4.11.0",
+    "npm": "^8.3.0",
     "prettier": "^2.4.0"
   },
   "private": true
